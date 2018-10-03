@@ -16,28 +16,38 @@ body>h1 {
 }
 
 nav {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
 }
 
-a#leftside {
-    margin-left: 5%;
-    padding: 5px 9%;
+a#home {
+    margin-left: 3%;
+    padding: 10px 8.5%;
     border-right: 1px solid black;
-}
-
-a#center {
-    padding: 5px 18%;
-}
-
-a#rightside {
-    margin-right: 5%;
-    padding: 5px 9%;
     border-left: 1px solid black;
 }
 
+a#history {
+    padding: 10px 8.5%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+a#modern {
+    padding: 10px 8.5%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+a#impact {
+    padding: 10px 10%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
 aside#left {
-    padding-bottom: 100%;
+    padding-bottom: 57%;
     float: left;
     border-top: 1px solid black;
     padding-left: 1%;
@@ -47,7 +57,7 @@ aside#left {
 }
 
 aside#right {
-    padding-bottom: 100%;
+    padding-bottom: 99.5%;
     float: right;
     border-top: 1px solid black;
     padding-left: 1%;
@@ -56,7 +66,13 @@ aside#right {
 }
 
 article {
-    padding-bottom: 100%;
+    padding-bottom: 43%;
+    padding-top: 10px;
+}
+
+article>div>h1 {
+    text-align: center;
+    font-size: 1.6em;
 }
 
 div#article {
@@ -70,6 +86,18 @@ img#img1 {
 
 img#facebook {
     width: 100%;
+}
+
+img#twitter {
+    width: 100%;
+}
+
+img#google {
+    width: 100%;
+}
+
+img#listimage {
+    width: 10%;
 }
 
 footer {
