@@ -8,19 +8,21 @@
     Author: Brenden Riley
     Date: 9.28.18
 */
-
+/* the css instructs the title at the top to be offset, and be in the center */
 body>h1 {
     text-align: center;
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
+/* the bar will be offset, and have a border */
 nav {
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid black;
 }
 
+/* the links have their borders, and are roughly balanced from the sides */
 a#home {
     margin-left: 3%;
     padding: 10px 8.5%;
@@ -46,6 +48,7 @@ a#impact {
     border-right: 1px solid black;
 }
 
+/* the asides are about equal, have border, larger font sizes, and go on their associative sides */
 aside#left {
     padding-bottom: 21.5%;
     float: left;
@@ -57,7 +60,7 @@ aside#left {
 }
 
 aside#right {
-    padding-bottom: 64%;
+    padding-bottom: 57.6%;
     float: right;
     border-top: 1px solid black;
     padding-left: 1%;
@@ -66,14 +69,7 @@ aside#right {
     font-size: 1.3em;
 }
 
-article#historyarticle {
-    padding-bottom: 27.7%;
-}
-
-article#modernarticle {
-    padding-bottom: 14%;
-}
-
+/* the article goes down a fair ammount */
 article {
     padding-bottom: 43%;
     padding-top: 10px;
@@ -89,6 +85,7 @@ div#article {
     padding-right: 20%;
 }
 
+/* the images will be in most of their sides */
 img#img1 {
     width: 100%;
 }
@@ -109,13 +106,15 @@ img#listimage {
     width: 10%;
 }
 
+/* the footer contains citations and has paddings */
 footer {
     width: 100%;
     padding: 10px 0px 10px 0px;
 }
 
+/* each of the articles need their own paddings so the footing lines up */
 article#indexarticle {
-    padding-bottom: 21.5%;
+    padding-bottom: 36.6%;
 }
 
 article#historyarticle {
