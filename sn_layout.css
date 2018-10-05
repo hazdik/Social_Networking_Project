@@ -47,8 +47,7 @@ a#impact {
 }
 
 aside#left {
-    padding-bottom: 28%;
-    ;
+    padding-bottom: 57%;
     float: left;
     border-top: 1px solid black;
     padding-left: 1%;
@@ -58,21 +57,12 @@ aside#left {
 }
 
 aside#right {
-    padding-bottom: 1000px;
+    padding-bottom: 99.5%;
     float: right;
     border-top: 1px solid black;
     padding-left: 1%;
     padding-right: 1%;
     width: 15%;
-
-}
-
-article#historyarticle {
-    padding-bottom: 27.7%;
-}
-
-article#modernarticle {
-    padding-bottom: 14%;
 }
 
 article {
@@ -113,10 +103,4 @@ img#listimage {
 footer {
     width: 100%;
     padding: 10px 0px 10px 0px;
-}
-
-footer>ul>li {
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 0%;
 }
