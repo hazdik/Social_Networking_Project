@@ -63,6 +63,15 @@ aside#right {
     padding-left: 1%;
     padding-right: 1%;
     width: 15%;
+
+}
+
+article#historyarticle {
+    padding-bottom: 27.7%;
+}
+
+article#modernarticle {
+    padding-bottom: 14%;
 }
 
 article {
