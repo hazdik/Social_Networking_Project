@@ -47,7 +47,7 @@ a#impact {
 }
 
 aside#left {
-    padding-bottom: 57%;
+    padding-bottom: 21.5%;
     float: left;
     border-top: 1px solid black;
     padding-left: 1%;
@@ -57,7 +57,7 @@ aside#left {
 }
 
 aside#right {
-    padding-bottom: 99.5%;
+    padding-bottom: 64%;
     float: right;
     border-top: 1px solid black;
     padding-left: 1%;
@@ -103,4 +103,20 @@ img#listimage {
 footer {
     width: 100%;
     padding: 10px 0px 10px 0px;
+}
+
+article#indexarticle {
+    padding-bottom: 21.5%;
+}
+
+article#historyarticle {
+    padding-bottom: 21.5%;
+}
+
+article#modernarticle {
+    padding-bottom: 7.5%;
+}
+
+article#impactarticle {
+    padding-bottom: 40%;
 }
