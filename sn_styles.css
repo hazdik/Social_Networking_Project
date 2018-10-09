@@ -41,6 +41,16 @@ nav>a:hover {
     background-color: rgb(85, 85, 90)
 }
 
+a:visited,
+a:link {
+    text-decoration: none;
+    color: rgb(17, 16, 16)
+}
+
+a:hover {
+    background-color: lightgray;
+}
+
 html {
     background-color: rgb(122, 164, 228);
 }
