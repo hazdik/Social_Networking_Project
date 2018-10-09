@@ -24,20 +24,20 @@ nav {
 
 /* the links have their borders, and are roughly balanced from the sides */
 a#home {
-    margin-left: 3%;
+    margin-left: 2%;
     padding: 10px 8.5%;
     border-right: 1px solid black;
     border-left: 1px solid black;
 }
 
 a#history {
-    padding: 10px 8.5%;
+    padding: 10px 9.5% 10px 9%;
     border-left: 1px solid black;
     border-right: 1px solid black;
 }
 
 a#modern {
-    padding: 10px 8.5%;
+    padding: 10px 8.5% 10px 8%;
     border-left: 1px solid black;
     border-right: 1px solid black;
 }
@@ -129,8 +129,9 @@ article#impactarticle {
     padding-bottom: 40%;
 }
 
+/* the ordered list on the modern networks tab has more appealing letter spacing, and an image that couldn't be found was immune to this change */
 ol.list {
-    letter-spacing: .4em;
+    letter-spacing: .35em;
 }
 
 div#noimage {
